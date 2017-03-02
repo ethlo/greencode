@@ -45,7 +45,14 @@ of those sections to manage the look and feel of the site. */
     background: rgba(255,255,255,0.2);
 }
 
-.services-section {
+.news-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: rgba(255,255,255,0.2);
+}
+
+.resources-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;

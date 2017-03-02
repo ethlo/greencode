@@ -1,211 +1,120 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+---
+title: Home 
+--- 
+{% include header.html %}
 
-    <title>Project GreenCode</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
-
-    <!-- Custom CSS -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-<style>
-h4 {
-	font-family: arial;
-	color: #6eaa46;
-	text-transform: uppercase;
-}
-
-body {
-	background:url(bg01.jpg) top right no-repeat; background-attachment:fixed;	
-}
-
-body, p {
-	font-family: Lato, sans-serif;
-	font-size: 15px;
-	line-height: 18px;
-}
-
-.navbar-brand {
-	font-family: arial;
-	color: #6eaa46 !important;
-	text-transform: uppercase;
-}
-
-nav {
-    box-shadow: 2px 0px 16px 10px rgba(0,0,0,0.45);
-}
-
-.panel-default
-{
-	background-color:rgba(240,240,240,.60);
-	border-color:#444;
-	box-shadow: 2px 0px 16px 10px rgba(0,0,0,0.45);
-	min-height:250px;
-}
-
-.panel-default>.panel-heading {
-	background-color:#222;
-}
-
-.panel-default>.panel-body {
-	background-color:rgba(240,240,240,.60);
-	min-height:200px;
-}
-
-</style>
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-pagelines"></i> &nbsp;GreenCode</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-
+<!-- Intro Section -->
+<section id="intro" class="intro-section">
+	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
-				<div class="panel panel-default">
-					<div class="panel-heading"><h4 class="text-left"><i class="fa fa-pagelines"></i> &nbsp;What is it?</h4></div>
-					<div class="panel-body">
-						<p class="text-justify">
-						All computer systems run software. Some software is used
-						extensively and is consistently under high utilization. It does not matter it being on servers, desktops, laptops or other portable devices. 
-						This project aims to raise awareness that choice of algorithms, protocols and implementations matter!</p>
-						
-						<div class="box-bottom text-right">
-							<a href="#about">Learn more</a>
+			<div class="col-lg-12">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="text-left">
+									<i class="fa fa-tachometer"></i> &nbsp;What is it?
+								</h4>
+							</div>
+							<div class="panel-body">
+								<p class="text-justify">All computer systems run software.
+									Some software is used extensively and is consistently under
+									high utilization. It does not matter it being on servers,
+									desktops, laptops or other portable devices. This project aims
+									to raise awareness that choice of algorithms, protocols and
+									implementations matter!</p>
+								<div class="box-bottom text-right">
+									<a href="#about">Learn more</a>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="panel panel-default">
-					<div class="panel-heading"><h4 class="text-left"><i class="fa fa-share"></i> &nbsp;What can I do?</h4></div>
-					<div class="panel-body">
-						<p class="text-justify">
-						Share this page and raise general awareness! Remember that faster, more efficient software also translates 
-						to happier users and less money spent on hardware and electrical bills. Your CFO can be a supporter even without realizing it!</p>
-						<div class="bottom-align-text text-right">
-							<a href="#about">Learn more</a>
+					<div class="col-md-4">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="text-left">
+									<i class="fa fa-superpowers"></i> &nbsp;What can I do?
+								</h4>
+							</div>
+							<div class="panel-body">
+								<p class="text-justify">Share this page and raise general
+									awareness! Remember that faster, more efficient software also
+									translates to happier users and less money spent on hardware
+									and electrical bills. Your CFO can be a supporter even without
+									realizing it!</p>
+								<div class="bottom-align-text text-right">
+									<a href="#about">Learn more</a>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-<div class="panel panel-default">
-					<div class="panel-heading"><h4 class="text-left"><i class="fa fa-edit"></i> &nbsp;Register software</h4></div>
-					<div class="panel-body">
-						<p class="text-justify">
-						Help us gather a collection of best-of-breed, efficient software!
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-						minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-						<div class="bottom-align-text text-right">
-							<a href="#about">Learn more</a>
+					<div class="col-md-4">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="text-left">
+									<i class="fa fa-edit"></i> &nbsp;Register software
+								</h4>
+							</div>
+							<div class="panel-body">
+								<p class="text-justify">Help us gather a collection of
+									best-of-breed, efficient software! Lorem ipsum dolor sit amet,
+									consectetur adipiscing elit, sed do eiusmod tempor incididunt
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+									nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+									commodo consequat. Duis aute irure dolor in
+								<div class="bottom-align-text text-right">
+									<a href="#about">Learn more</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-            </div>
-        </div>
-    </section>
+</section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>About Section</h1>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- About Section -->
+<section id="about" class="about-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>About Section</h1>
+			</div>
+		</div>
+	</div>
+</section>
 
-    <!-- Services Section -->
-    <section id="services" class="services-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Services Section</h1>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Services Section -->
+<section id="news" class="news-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>News Section</h1>
+			</div>
+		</div>
+	</div>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contact Section</h1>
-                </div>
-            </div>
-        </div>
-    </section>
+<section id="resources" class="resources-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>Resources</h1>
+			</div>
+		</div>
+	</div>
+</section>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>Contact Section</h1>
+			</div>
+		</div>
+	</div>
+</section>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-
-</body>
-
-</html>
+{% include footer.html %}
