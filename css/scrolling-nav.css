@@ -117,13 +117,15 @@ nav {
 	margin-top:100px;
 }
 
+.navbar-inverse .navbar-nav>li>a
+
 /* unvisited link */
-a:link {
+.navbar-inverse .navbar-nav>li>a:link, a:link {
     color: #6eaa46;
 }
 
 /* visited link */
-a:visited {
+.navbar-inverse .navbar-nav>li>a:visited, a:visited {
     color: #6eaa46;
 }
 
