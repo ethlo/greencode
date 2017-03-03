@@ -10,12 +10,12 @@
     <title>Project GreenCode</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
 
     <!-- Custom CSS -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="/css/scrolling-nav.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,51 +24,6 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<style>
-h4 {
-	font-family: arial;
-	color: #6eaa46;
-	text-transform: uppercase;
-}
-
-body {
-	background:url(bg01.jpg) top right no-repeat; background-attachment:fixed;	
-}
-
-body, p {
-	font-family: Lato, sans-serif;
-	font-size: 15px;
-	line-height: 18px;
-}
-
-.navbar-brand {
-	font-family: arial;
-	color: #6eaa46 !important;
-	text-transform: uppercase;
-}
-
-nav {
-    box-shadow: 2px 0px 16px 10px rgba(0,0,0,0.45);
-}
-
-.panel-default
-{
-	background-color:rgba(240,240,240,.60);
-	border-color:#444;
-	box-shadow: 2px 0px 16px 10px rgba(0,0,0,0.45);
-	min-height:250px;
-}
-
-.panel-default>.panel-heading {
-	background-color:#222;
-}
-
-.panel-default>.panel-body {
-	background-color:rgba(240,240,240,.60);
-	min-height:200px;
-}
-
-</style>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -83,7 +38,7 @@ nav {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-pagelines"></i> &nbsp;GreenCode</a>
+                <a class="navbar-brand page-scroll" href="/#page-top" data-target="#page-top"><i class="fa fa-pagelines"></i> &nbsp;GreenCode</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -91,19 +46,16 @@ nav {
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
+                        <a class="page-scroll" href="/#page-top" data-target="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="/#about" data-target="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#news">News</a>
+                        <a class="page-scroll" href="/#contact" data-target="#contact">Contact</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#resources">Resources</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a href="/projects">Projects</a>
                     </li>
                 </ul>
             </div>

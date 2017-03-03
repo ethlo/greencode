@@ -1,3 +1,9 @@
 port: 5000
 source: .
 highlighter: rouge
+permalink: pretty
+
+collections:
+  projects:
+    output: true
+    permalink: /p/:path/
