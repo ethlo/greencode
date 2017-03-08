@@ -7,3 +7,7 @@ collections:
   projects:
     output: true
     permalink: /p/:path/
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
